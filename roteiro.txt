@@ -1,0 +1,32 @@
+roteiro:
+
+1) como extrair dados de uma API (faker); -> Ok
+
+2) como transformar em dataset um conjunto de dados extraídos dessa API;
+
+3) como armazenar no postgres do airflow; (ou postgres docker msm);
+
+4) como levar isso para a AWS (RDS?, DMS?);
+
+5) se possível subir a infra aws com terraform;
+
+bonus (orquestrar tudo por airflow, PythonOperator e bashOperator[terraform init] )
+
+
+
+
+astro cli bash commands
+Available Commands:
+  bash          Exec into a running an Airflow container
+  init          Create a new Astro project in your working directory
+  kill          Kill all locally running Airflow containers
+  logs          Display component logs for your local Airflow environment
+  object        Manage local Airflow Connections, Variables, and Pools
+  parse         parse all DAGs in your Astro project for errors
+  ps            List locally running Airflow containers
+  pytest        Run pytests in a local Airflow environment
+  restart       Restart all locally running Airflow containers
+  run           Run Airflow CLI commands within your local Airflow environment
+  start         Start a local Airflow environment
+  stop          Stop all locally running Airflow containers
+  upgrade-check List DAG and config-level changes required to upgrade to Airflow 2.0
