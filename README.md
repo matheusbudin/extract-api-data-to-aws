@@ -1,14 +1,6 @@
 # extract-api-data-to-aws
-roteiro:
 
-1) como extrair dados de uma API (faker); -> Ok
+The goal of this project is to extact data from an API and store it in AWS RDS and AWS S3
 
-2) como transformar em dataset um conjunto de dados extraídos dessa API;
-
-3) como armazenar no postgres do airflow; (ou postgres docker msm);
-
-4) como levar isso para a AWS (RDS?, DMS?);
-
-5) se possível subir a infra aws com terraform;
-
-bonus (orquestrar tudo por airflow, PythonOperator e bashOperator[terraform init] )
+Note that you need to protect your sensitive data like your credentials in a .env folder
+and use a os.getenv() to use those in your code with safety.
